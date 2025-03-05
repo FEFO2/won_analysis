@@ -3,7 +3,7 @@ import streamlit as st
 from sklearn.ensemble import RandomForestClassifier
 
 # Cargar el dataset
-data_path = r"C:\Users\Francesc\Documents\GitHub\won_analysis\datasets\days_to_start_new.csv"
+data_path = r"datasets\days_to_start_new.csv"
 df = pd.read_csv(data_path)
 
 # Añadir features temporales
